@@ -1,0 +1,17 @@
+<!-- <nav class="navbar navbar-expand-lg bg-body-success"> -->
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'index' %}" style="color:black"><b>Home</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+          <a class=" navbar-brand active" aria-current="page" href="{% url 'about' %}">About Us</a>
+          <a class="navbar-brand" href="{% url 'menu' %}">Menu</a>
+          <a class="navbar-brand" href="{% url 'order' %}">Place An Order</a>
+           <a class="navbar-brand" href="{% url 'order' %}">login</a>
+        </div>
+      </div>
+    </div>
+</nav>
